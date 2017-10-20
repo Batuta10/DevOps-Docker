@@ -1,0 +1,16 @@
+{
+  "name": "nacdevops",
+  "version": "1.0.0",
+  "description": "Nac Dev Ops com node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Costa RM 78792",
+  "license": "ISC",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}
