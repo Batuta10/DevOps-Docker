@@ -8,9 +8,7 @@ Application runnig in NodeJS with:
 - [Consign](https://www.npmjs.com/package/consign)
 
 ## Me
-My name is **Gabriel Costa**, from **Brazil**, this is my application that was developed in the classes of my university.
 My name is **Gabriel Costa**, from **Brazil**, this application was developed in the university classes.    
-My name is **Gabriel Costa**, from **Brazil**, I developed this applications on the university classes.
 
 ### Runnig Dockerfile
 Make sure you have Docker installed:
@@ -23,7 +21,7 @@ This from the root folder where the Dockerfile
 ```sh
 $ docker build -t nacdevops:v0.1 ./
 # wait he built the image.
-exit Successfully tagged nac_dev_ops:v0.1
+exit Successfully tagged nacdevops:v0.1
 # For Run image
-$ docker run -p 80:3000 nac_dev_ops:v0.1
+$ docker run -p 80:3000 nacdevops:v0.1
 ```
